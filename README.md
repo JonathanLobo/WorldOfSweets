@@ -1,1 +1,1 @@
-# CS1530_Project
+# World of Sweets
