@@ -42,7 +42,7 @@ public class Player {
      * @throws IOException if invalid fileName
      */
     public void setImage(String fileName) throws IOException {
-        this.img = ImageIO.read(getClass().getResource((fileName));
+        this.img = ImageIO.read(new File(fileName));
     }
 
     /**
